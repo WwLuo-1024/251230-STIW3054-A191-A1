@@ -10,7 +10,10 @@ UML Diagram:![Image Class Diagram](https://github.com/WwLuo-1024/251230-STIW3054
 
 We collect the comment matric number in one list,and table matric number into anther list,after that,i create a new method to mainly compare them if contain in another list or not.If there is,so it means the people have submitted their account,but if there is not,it means this people have not submitted their account.  
 
-Output:![Image output](https://github.com/WwLuo-1024/251230-STIW3054-A191-A1/blob/master/Images/output.png)  
+Output:The output shown in the IDE  
+![Image output1](https://github.com/WwLuo-1024/251230-STIW3054-A191-A1/blob/master/Images/result1.png)
+The output shown in the Excel File  
+![Image output2](https://github.com/WwLuo-1024/251230-STIW3054-A191-A1/blob/master/Images/output.png)  
 
   
 i read data from github comment page,and collect name,matric number and github link of those people who have submmited their account into the excel file.  
