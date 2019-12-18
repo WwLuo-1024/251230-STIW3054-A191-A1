@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.stiw3054;
+package com.Test03;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -152,7 +152,7 @@ public static String getDivContentByJsoup(String content){
             matric = m.group(0);
         }
         matricList.add(matric);
-        System.out.println(matric);
+        //System.out.println(matric);
     }
         return matricList;
     }
