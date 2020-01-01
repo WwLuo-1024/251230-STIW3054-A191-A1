@@ -35,7 +35,8 @@ public class Main {
             System.out.println("| No. | Matric | Name                                  | GitHub Link                            |");
             System.out.println("|-----|--------|---------------------------------------|----------------------------------------|");
             for(int i = 0;i<test.getMatricNumberByJsoup(divContent).size();i++){
-                System.out.printf("|%-5s|%-8s|%-39s|%-40s|\n",i+1,test.getMatricNumberByJsoup(divContent).get(i),test.getNamesByJsoup(divContent).get(i),test.getLinksByJsoup(divContent).get(i));
+                int last=test.getNamesByJsoup(divContent).get(i).indexOf("<br>");
+                System.out.printf("|%-5s|%-8s|%-39s|%-40s|\n",i+1,test.getMatricNumberByJsoup(divContent).get(i),test.getNamesByJsoup(divContent).get(i).substring(4, last),test.getLinksByJsoup(divContent).get(i));
             }
             System.out.println("|-----|--------|---------------------------------------|----------------------------------------|");
             test.SaveExcel(divContent);
@@ -45,4 +46,3 @@ public class Main {
          
     }
     }
-
